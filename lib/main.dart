@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hello_flutter/UI/InheritedWidgetTestRoute_page.dart';
+import 'package:hello_flutter/UI/themedemo_page.dart';
 import 'package:hello_flutter/async/AsyncStudy_page.dart';
 import 'package:hello_flutter/statemanager/provider/main_provider.dart';
 import 'package:hello_flutter/statemanager/redux/redux_page.dart';
@@ -30,6 +31,7 @@ init() {
   list.add(DemoBean(title: 'Redux', action: (context) => ReduxPage()));
   list.add(DemoBean(
       title: 'ScopedModel', action: (context) => ScopedModelTestPage()));
+  list.add(DemoBean(title: 'Redux', action: (context) => ThemeStudyDemo()));
 
   return list;
 }
