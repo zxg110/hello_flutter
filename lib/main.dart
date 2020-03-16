@@ -31,7 +31,7 @@ init() {
   list.add(DemoBean(title: 'Redux', action: (context) => ReduxPage()));
   list.add(DemoBean(
       title: 'ScopedModel', action: (context) => ScopedModelTestPage()));
-  list.add(DemoBean(title: 'Redux', action: (context) => ThemeStudyDemo()));
+  list.add(DemoBean(title: 'Redux', action: (context) => ThemeDemo()));
 
   return list;
 }
